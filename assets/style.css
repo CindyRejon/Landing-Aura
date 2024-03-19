@@ -1,0 +1,497 @@
+    /*Body*/
+    b {
+        background-color: white;
+    }
+
+    #boton {
+        background-color: #896ad6;
+        border: #896ad6;
+        border-radius: 50px;
+        width: 110px;
+        height: 45px;
+        font-size: 18px;
+    }
+
+    #fondoazul {
+        background-image: url(./Fondo-Azul.png);
+    }
+
+    /*Navbar*/
+    .navbar{
+        font-size: 20px;
+    }
+
+    /*Anuncio*/
+    #titulo {
+        color: black;
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 40px;
+        text-align: initial;
+        margin-bottom:10px;
+    }
+
+    #texto {
+        color: #2d88b7;
+        font-size: 45px;
+        font-weight: medium;
+        text-align: initial;
+        margin-bottom:20px;
+    }
+
+    .anuncio {
+        background-image: url(./Fondo-Azul.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+
+    #mujer {
+        position: flex;
+        align-items: start;
+        justify-content: start;
+        margin-top: 30px;
+        margin-bottom:95px;
+    }
+
+    .form-floating {
+        width: 65%;
+        align-items: center;
+    }
+
+    #floatingTextareaDisabled {
+        background-color: #bdd9e9;
+        margin-bottom:20px;
+    }
+
+    #floatingInputDisabled {
+        background-color: #bdd9e9;
+        margin-bottom:20px;
+    }
+
+    /*Beneficios*/
+    #subtitulo-beneficios {
+        text-align: end;
+    }
+
+    #subtitulo-beneficios>#conoce {
+        display: inline-block;
+        color: black;
+        font-size: 40px;
+        font-weight: medium;
+        text-align: end;
+        margin-right: 5px;
+    }
+
+    #subtitulo-beneficios>#beneficios {
+        display: inline-block;
+        color: #3287B7;
+        font-size: 40px;
+        font-weight: medium;
+        margin-bottom: 75px;
+    }
+
+    #cuadro-beneficios {
+        background-color: #F5F5F5;
+        border-radius: 40px;
+        padding: 20px;
+        padding-right: 2px;
+        margin-bottom: 75px;
+    }
+
+    #beneficio1 {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        background-color: #D4C4FC;
+        border-color: #896AD6;
+        border-style: solid;
+        border-radius: 60px;
+        padding: 30px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    #beneficio2 {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        background-color: #CBE1EE;
+        border-color: #3287B7;
+        border-style: solid;
+        border-radius: 60px;
+        padding: 30px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    #beneficio3 {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        background-color: #D4C4FC;
+        border-color: #896AD6;
+        border-style: solid;
+        border-radius: 60px;
+        padding: 30px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    #beneficio4 {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        background-color: #CBE1EE;
+        border-color: #3287B7;
+        border-style: solid;
+        border-radius: 60px;
+        padding: 30px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    /*Servicios*/
+    main {
+        background-image: url(./Fondo-Triangulo1.png);
+    }
+
+    #titulo-servicios {
+        color: black;
+        font-size: 50px;
+        font-weight: medium;
+        text-align: center;
+        margin-bottom: 75px;
+        background-image: url(./Fondo\ titulos.png);
+        background-size: cover;
+        padding: 50px;
+    }
+
+    #subtitulo-servicios>#hagamos {
+        display: inline-block;
+        color: #896AD6;
+        font-size: 40px;
+        font-weight: medium;
+        text-align: start;
+        margin-right: 5px;
+    }
+
+    #subtitulo-servicios>#crecer {
+        display: inline-block;
+        color: black;
+        font-size: 40px;
+        font-weight: medium;
+        text-align: start;
+    }
+
+    #servicio1-texto {
+        text-align: start;
+        font-size: 20px;
+    }
+
+    #servicio1-texto>h2 {
+        color: #3287B7;
+    }
+
+    #servicio1-imagen {
+        display: flex;
+        justify-content: center;
+        border-radius: 30px;
+        box-shadow: 2px 10px 10px gray;
+        margin-bottom: 65px;
+        margin-top: 30px;
+        margin-left: -10px;
+    }
+
+    #servicio2-texto {
+        text-align: start;
+        font-size: 20px;
+        margin-bottom: 65px;
+    }
+
+    #servicio2-texto>h2 {
+        color: #3287B7;
+    }
+
+    #servicio2-imagen {
+        display: flex;
+        justify-content: center;
+        border-radius: 30px;
+        box-shadow: 2px 10px 10px gray;
+        margin-bottom: 30px;
+    }
+
+    #servicio3-texto {
+        text-align: start;
+        font-size: 20px;
+    }
+
+    #servicio3-texto>h2 {
+        color: #3287B7;
+    }
+
+    #servicio3-imagen {
+        display: flex;
+        justify-content: center;
+        border-radius: 30px;
+        box-shadow: 2px 10px 10px gray;
+        margin-top: 30px;
+    }
+
+    /*Portafolio*/
+    #portafolio {
+        margin-top: 95px;
+        margin-bottom: 20px;
+    }
+
+    /*Opiniones*/
+    section {
+        background-image: url(./Fondo-Triangulo3.png);
+    }
+
+    #subtitulo-opiniones {
+        margin-top: 95px;
+        text-align: end;
+    }
+
+    #subtitulo-opiniones>#lo {
+        display: inline-block;
+        color: black;
+        font-size: 40px;
+        font-weight: medium;
+        margin-right: 5px;
+    }
+
+    #subtitulo-opiniones>#clientes {
+        display: inline-block;
+        color: #3287B7;
+        font-size: 40px;
+        font-weight: medium;
+        margin-bottom: 75px;
+    }
+
+    #opinion1 {
+        position: relative;
+        text-align: center;
+        background-color: #bdd9e9;
+        height: 600px;
+        width: 370px;
+        margin-right: 87px;
+        margin-bottom: 20px;
+        border-radius: 40px;
+    }
+
+    #opinion1-imagen {
+        position: absolute;
+        width: 400px;
+        top: -3%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+
+    #opinion-texto1 {
+        font-size: 20px;
+        font-weight: bold;
+        position: absolute;
+        width: 300px;
+        top: 52%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+
+    #cuadro-opinion1 {
+        position: absolute;
+        text-align: center;
+        background-color: white;
+        width: 300px;
+        height: 170px;
+        border-radius: 40px;
+        padding: 15px;
+        top: 65%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+
+    #opinion2 {
+        position: relative;
+        text-align: center;
+        background-color: #bdd9e9;
+        height: 600px;
+        width: 370px;
+        margin-right: 87px;
+        margin-bottom: 20px;
+        border-radius: 40px;
+    }
+
+    #opinion2-imagen {
+        position: absolute;
+        width: 400px;
+        top: -3%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+
+    #opinion-texto2 {
+        font-size: 20px;
+        font-weight: bold;
+        position: absolute;
+        width: 300px;
+        top: 52%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+
+    #cuadro-opinion2 {
+        position: absolute;
+        text-align: center;
+        background-color: white;
+        width: 300px;
+        height: 170px;
+        border-radius: 40px;
+        padding: 25px;
+        top: 65%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+
+    #opinion3 {
+        position: relative;
+        text-align: center;
+        background-color: #bdd9e9;
+        height: 600px;
+        width: 370px;
+        margin-bottom: 20px;
+        border-radius: 40px;
+    }
+
+    #opinion3-imagen {
+        position: absolute;
+        width: 400px;
+        top: -3%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+
+    #opinion-texto3 {
+        font-size: 20px;
+        font-weight: bold;
+        position: absolute;
+        width: 300px;
+        top: 52%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+
+    #cuadro-opinion3 {
+        position: absolute;
+        text-align: center;
+        background-color: white;
+        width: 300px;
+        height: 170px;
+        border-radius: 40px;
+        padding: 25px;
+        top: 65%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+
+    /*Ayuda*/
+    #ayuda {
+        justify-content: end;
+    }
+
+    #boton-ayuda {
+        background-color: #896ad6;
+        border: #896ad6;
+        border-radius: 50px;
+        width: 210px;
+        height: 75px;
+        font-size: 18px;
+        font-weight: medium;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+
+    #boton-ayuda-whats {
+        background-color: #896ad6;
+        border: #896ad6;
+        border-radius: 50px;
+        width: 105px;
+        height: 105px;
+    }
+
+
+    /*Footer*/
+    footer {
+        width: 100%;
+        padding: 20px 0px;
+        font-size: 20px;
+        margin-top: 10px;
+        background-image: url(./Fondo-Azul2.png);
+        background-position: start;
+    }
+
+    footer h2 {
+        margin-bottom: 5px;
+        color: black;
+        font-size: 30px;
+        font-weight: 450;
+    }
+
+    .container-footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    .box-footer {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .box-footer hr {
+        border: none;
+        height: 1px;
+        background-color: #3287B7;
+    }
+
+    .box-footer a {
+        color: black;
+        font-weight: 600;
+    }
+
+    .box-copyright {
+        max-width: 1200px;
+        margin: auto;
+        text-align: center;
+        padding: 0px 40px;
+    }
+
+    .box-copyright hr {
+        border: none;
+        height: 1px;
+        background-color: #3287B7;
+    }
+
+    .box-copyright p {
+        font-size: 17px;
+        margin-top: 5px;
+        color: black;
+    }
